@@ -2,9 +2,9 @@ package initialize
 
 import (
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/kongmsr/atom-gorm/gconfig"
-	"github.com/kongmsr/atom-gorm/initialize/internal"
-	"github.com/kongmsr/atom-gorm/migration"
+	"github.com/gomsr/atom-gorm/gconfig"
+	"github.com/gomsr/atom-gorm/initialize/internal"
+	"github.com/gomsr/atom-gorm/migration"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 )

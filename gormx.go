@@ -2,9 +2,9 @@ package gormx
 
 import (
 	"fmt"
-	"github.com/kongmsr/atom-gorm/gconfig"
-	"github.com/kongmsr/atom-gorm/initialize"
-	"github.com/kongmsr/atom-gorm/tenant"
+	"github.com/gomsr/atom-gorm/gconfig"
+	"github.com/gomsr/atom-gorm/initialize"
+	"github.com/gomsr/atom-gorm/tenant"
 	"gorm.io/gen/field"
 	"regexp"
 	"strings"

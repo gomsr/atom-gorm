@@ -1,7 +1,7 @@
 package internal
 
 import (
-	"github.com/kongmsr/atom-gorm/gconfig"
+	"github.com/gomsr/atom-gorm/gconfig"
 	"log"
 	"os"
 	"time"

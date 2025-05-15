@@ -2,7 +2,7 @@ package gormx
 
 import (
 	"fmt"
-	"github.com/kongmsr/atom-gorm/gconfig"
+	"github.com/gomsr/atom-gorm/gconfig"
 	"testing"
 )
 

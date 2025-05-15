@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"github.com/Mikaelemmmm/sql2pb/core"
 	"github.com/alice52/jasypt-go"
-	"github.com/kongmsr/atom-gorm/gconfig"
+	"github.com/gomsr/atom-gorm/gconfig"
 	"gorm.io/driver/mysql"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"

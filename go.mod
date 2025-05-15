@@ -1,4 +1,4 @@
-module github.com/kongmsr/atom-gorm
+module github.com/gomsr/atom-gorm
 
 go 1.23.1
 

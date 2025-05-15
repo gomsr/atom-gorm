@@ -1,7 +1,7 @@
 package g
 
 import (
-	"github.com/kongmsr/atom-gorm/gconfig"
+	"github.com/gomsr/atom-gorm/gconfig"
 	"gorm.io/gen"
 	"testing"
 )

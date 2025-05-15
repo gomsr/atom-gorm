@@ -3,8 +3,8 @@ package g
 import (
 	"fmt"
 	"github.com/alice52/jasypt-go"
-	"github.com/kongmsr/atom-gorm/gconfig"
-	"github.com/kongmsr/atom-gorm/tenant"
+	"github.com/gomsr/atom-gorm/gconfig"
+	"github.com/gomsr/atom-gorm/tenant"
 	ggy "github.com/we7coreteam/gorm-gen-yaml"
 	"gorm.io/driver/mysql"
 	"gorm.io/driver/postgres"
