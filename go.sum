@@ -105,8 +105,8 @@ github.com/stretchr/testify v1.3.0/go.mod h1:M5WIy9Dh21IEIfnGCwXGc5bZfKNJtfHm1UV
 github.com/stretchr/testify v1.7.0/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
 github.com/stretchr/testify v1.10.0 h1:Xv5erBjTwe/5IxqUQTdXv5kgmIvbHo3QQyRwhJsOfJA=
 github.com/stretchr/testify v1.10.0/go.mod h1:r2ic/lqez/lEtzL7wO/rwa5dbSLXVDPFyf8C91i36aY=
-github.com/we7coreteam/gorm-gen-yaml v1.0.8 h1:dbUQUjdrMzUNIanFkBO+SDkI+lE/okp8Dwx5KhcDdZA=
-github.com/we7coreteam/gorm-gen-yaml v1.0.8/go.mod h1:WAFKkK+958PFd5SBLRlIrUySrJeqUriFaiP31duc8eQ=
+github.com/we7coreteam/gorm-gen-yaml v1.0.10 h1:K3QfHfv5uEZOfg/Z/x4eZpuReyLw50FeHCqib7RtYPE=
+github.com/we7coreteam/gorm-gen-yaml v1.0.10/go.mod h1:tNGeJOZuMo3sNFW24WMRXm6Eydx1wRlA8Z5PCT2Gd8c=
 go.opentelemetry.io/auto/sdk v1.1.0 h1:cH53jehLUN6UFLY71z+NDOiNJqDdPRaXzTel0sJySYA=
 go.opentelemetry.io/auto/sdk v1.1.0/go.mod h1:3wSPjt5PWp2RhlCcmmOial7AvC4DQqZb7a7wCow3W8A=
 go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.54.0 h1:TT4fX+nBOA/+LUkobKGW1ydGcn+G3vRw9+g5HwCphpk=

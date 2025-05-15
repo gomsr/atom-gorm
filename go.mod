@@ -7,7 +7,7 @@ require (
 	github.com/alice52/jasypt-go v1.0.7
 	github.com/go-sql-driver/mysql v1.9.2
 	github.com/golang-migrate/migrate/v4 v4.18.3
-	github.com/we7coreteam/gorm-gen-yaml v1.0.8
+	github.com/we7coreteam/gorm-gen-yaml v1.0.10
 	google.golang.org/grpc v1.72.1
 	gorm.io/driver/mysql v1.5.7
 	gorm.io/driver/postgres v1.5.11
