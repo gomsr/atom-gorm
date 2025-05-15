@@ -1,0 +1,44 @@
+system:
+  env: local
+  db-type: mysql
+  addr: 8080
+
+zap:
+  level: debug
+  prefix: '[github.com/alice52/bili-video-archive]'
+  format: console
+  director: logs
+  encode-level: LowercaseColorLevelEncoder
+  stacktrace-key: stacktrace
+  max-age: 0
+  show-line: true
+  log-in-console: true
+
+email:
+  to: 1252068782@qq.com
+  from: zzhang_xz@163.com
+  host: smtp.163.com
+  secret: ENC(Mxw6y2NKApKw9TsIPvbuL3hvuhrTOIrpFQXMxgxF8JzAUZI75Xuqb+jepoFkfXrB)
+  nickname: bilibi-archive
+  port: 465
+  is-ssl: true
+
+mysql:
+  prefix: ''
+  port: '3307'
+  config: charset=utf8mb4&parseTime=True&loc=Local
+  db-name: kit-common
+  username: root
+  password: ENC(Hr8Wap55jGFEQzvJX+lK+P2XSLBFW/IegQjx158Yf5n1u9K05AwGb6n1WH9gy/Aj)
+  path: ENC(5c7PpiNjbhGpfXVyF8SnRfVgcqJQz4TChv7Jxk9+kNsUO4825F10OlBRdkWYmtdMyI51LK6C+5/RtYm6lwmA4w==)
+  engine: ''
+  log-mode: debug
+  max-idle-conns: 10
+  max-open-conns: 100
+  singular: false
+  log-zap: true
+  migration: true
+  migration-path: file://./source/migrations
+  migration-table: schema_migrations_xxx
+  use-tenant: true
+
