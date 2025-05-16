@@ -2,7 +2,7 @@ package initialize
 
 import (
 	"github.com/gomsr/atom-gorm/gconfig"
-	"github.com/gomsr/atom-gorm/initialize/internal"
+	"github.com/gomsr/atom-gorm/initialize/gormc"
 	"github.com/gomsr/atom-gorm/migration"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
@@ -17,7 +17,7 @@ func GormPgSQL(p *gconfig.Pgsql) *gorm.DB {
 		DSN:                  p.Dsn(), // DSN data source name
 		PreferSimpleProtocol: false,
 	}
-	db, err := gorm.Open(postgres.New(pgsqlConfig), internal.Gorm.ConfigPgsql(p))
+	db, err := gorm.Open(postgres.New(pgsqlConfig), gormc.Gorm.ConfigPgsql(p))
 	if err != nil {
 		return nil
 	}
@@ -41,7 +41,7 @@ func GormPgSqlByConfig(p *gconfig.Pgsql) *gorm.DB {
 		PreferSimpleProtocol: false,
 	}
 
-	db, err := gorm.Open(postgres.New(pgsqlConfig), internal.Gorm.ConfigPgsql(p))
+	db, err := gorm.Open(postgres.New(pgsqlConfig), gormc.Gorm.ConfigPgsql(p))
 	if err != nil {
 		return nil
 	}

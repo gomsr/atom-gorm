@@ -3,7 +3,7 @@ package initialize
 import (
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/gomsr/atom-gorm/gconfig"
-	"github.com/gomsr/atom-gorm/initialize/internal"
+	"github.com/gomsr/atom-gorm/initialize/gormc"
 	"github.com/gomsr/atom-gorm/migration"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
@@ -19,7 +19,7 @@ func GormMysql(m *gconfig.Mysql) *gorm.DB {
 		DefaultStringSize:         191,     // string 类型字段的默认长度
 		SkipInitializeWithVersion: false,   // 根据版本自动配置
 	}
-	db, err := gorm.Open(mysql.New(mysqlConfig), internal.Gorm.ConfigMysql(m))
+	db, err := gorm.Open(mysql.New(mysqlConfig), gormc.Gorm.ConfigMysql(m))
 	if err != nil {
 		return nil
 	}
@@ -44,7 +44,7 @@ func GormMysqlByConfig(m *gconfig.Mysql) *gorm.DB {
 		DefaultStringSize:         191,     // string 类型字段的默认长度
 		SkipInitializeWithVersion: false,   // 根据版本自动配置
 	}
-	if db, err := gorm.Open(mysql.New(mysqlConfig), internal.Gorm.ConfigMysql(m)); err != nil {
+	if db, err := gorm.Open(mysql.New(mysqlConfig), gormc.Gorm.ConfigMysql(m)); err != nil {
 		panic(err)
 	} else {
 		db.InstanceSet("gorm:table_options", "ENGINE=InnoDB")
