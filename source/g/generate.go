@@ -5,7 +5,7 @@ import (
 	"github.com/alice52/jasypt-go"
 	"github.com/gomsr/atom-gorm/gconfig"
 	"github.com/gomsr/atom-gorm/tenant"
-	ggy "github.com/we7coreteam/gorm-gen-yaml"
+	ggy "github.com/gomsr/gorm-gen-yaml"
 	"gorm.io/driver/mysql"
 	"gorm.io/driver/postgres"
 	"gorm.io/gen"
